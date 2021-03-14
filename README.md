@@ -65,7 +65,7 @@ mv .env.example .env
 
 by _default_ this web server will run at _port 3399_. If you want to run in a different port just open the .env file and change both the PORT variable and port value in URL_MAIL and save it.
 
-run the migrations to create databse and its tables
+run the migrations to create database and its tables
 
 ```
 npm run typeorm -- migration:run
